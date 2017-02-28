@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>POMODORO CLOCK</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="title">
+  Pomodoro Clock
+</div>
+  <div class="container-fluid"> 
+    <div class="row sessionBreakLength">
+      <div class="col-xs-5">
+        BREAK LENGTH
+      </div>
+      <div class="col-xs-5">
+        SESSION LENGTH
+      </div>
+    </div>
+      <div class="row counter">
+        <div class="col-xs-5">
+          <button class="counterButton" value="-breakLength">-</button>
+          <span class="breakLength">5</span>
+          <button class="counterButton" value="+breakLength">+</button>
+        </div>
+        <div class="col-xs-5">
+          <button class="counterButton" value="-sessionLength">-</button>
+          <span class="sessionLength">25</span>
+          <button class="counterButton" value="+sessionLength">+</button>
+        </div>
+      </div>
+  </div>
+<div>
+  <button class="timerButton">
+  </button>
+  <div class="progressDiv">Session</div>
+  <div class="clock"></div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
